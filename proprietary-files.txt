@@ -89,9 +89,6 @@ vendor/lib/rfsa/adsp/libfastcvadsp_skel.so
 
 # Audio
 vendor/bin/audioflacapp
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
 vendor/lib/libacdb-fts.so
 vendor/lib/libacdbloader.so
 vendor/lib/libacdbrtac.so
@@ -106,8 +103,6 @@ vendor/lib/libdrc.so
 vendor/lib/libqtigef.so
 vendor/lib/libsurround_3mic_proc.so
 vendor/lib/libtinycompress_vendor.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
 vendor/lib64/libacdbrtac.so
@@ -1061,7 +1056,7 @@ vendor/lib64/libqmi_encdec.so
 # Radio - from tissot
 vendor/bin/netmgrd|7206c7b26b09a2d7bccab23fd66094771c00aad7
 vendor/etc/data/dsi_config.xml|f4861831fcb21d43e2a9ca12519155ebb8ac1407
-vendor/etc/data/netmgr_config.xml|9a66590aed48b5df9c33a75007420d9d99f533b5
+vendor/etc/data/netmgr_config.xml|e7861023b955a7443dfde6f12a9e9ce673a1e05c
 vendor/lib64/libconfigdb.so|1fa77478a72cf4152c1027fd40ee9a58a0ba89aa
 vendor/lib64/liblqe.so|63ed946d00ed73664410041e3e8fa8c2f5cbeeb6
 vendor/lib64/libnetmgr.so|6265bfdff5b5251a6c4823b835fc1c572de00728
