@@ -4,6 +4,7 @@
 # riva Package version: Xiaomi/riva/riva:8.1.0/OPM1.171019.026/V11.0.2.0.OCKMIXM:user/release-keys
 # rolex Package version:	rolex-user	7.1.2 N2G47H V10.2.3.0.NCCMIXM release-keys
 # tissot Package version: Tissot PKQ1.180917.001 V10.0.24.0.PDHMIXM
+# daisy Package version: daisy-user 10 QKQ1.191002.002 V11.0.21.0.QDLMIXM release-keys
 
 # ACDB - from riva
 etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb:vendor/etc/acdbdata/MTP/msm8952-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb|7e025d57090fb623d4502b732a6edf409c3788ab
@@ -842,13 +843,13 @@ vendor/lib64/librs_adreno_sha1.so|7b4d319d68e546cdf393876488bf68b8d5c57c44
 
 # Graphics (SDM) - from olive
 vendor/lib/libscalar.so|5793dfa5d29a20e123de2afb2691713f5cb75c74
-vendor/lib/libsdm-color.so|4dc7a8c90521c45b3e25623985cf4486e6fb7b57
+vendor/lib/libsdm-color.so|e83b9eae6f2c491deafd59de84bbfcee91435af4
 vendor/lib/libsdm-diag.so|6b8ddfbf870f329ca9e9fb50c3e9cb1a54bbb6ab
 -vendor/lib/libsdm-disp-vndapis.so|5b5ab2404541a8e3fd97a4e600bc34e7f3e2e56c
 vendor/lib/libsdmextension.so|1b44a07dc0e51c635202e6c86d0e895cd6a86db6
 vendor/lib/libtinyxml2_1.so|58932a10e8e410dc7b263bc36b5c89e37623059a
 vendor/lib64/libscalar.so|43cb8279a855796d26dedb41efcb0f16b6ad7394
-vendor/lib64/libsdm-color.so|f465d382260baed2d2f326ca663e03cccd73a0b7
+vendor/lib64/libsdm-color.so|7caa3c7a3dfd0e0d5ab71c287bc142d1053df50b
 vendor/lib64/libsdm-diag.so|4ec7f55fd8a4a1a316282be57e1d5c1a3a20660d
 -vendor/lib64/libsdm-disp-vndapis.so|b04cd604137e52f4f9bb372db01884106da9834a
 vendor/lib64/libsdmextension.so|8f03a19a12b357ec594f364d85283f5633a3469b
@@ -1262,3 +1263,6 @@ vendor/lib64/libwvhidl.so
 
 # Wi-Fi - from tissot
 vendor/bin/wcnss_service|f8ecd38a41b6b7f832380b489e0c9804c34174d8
+
+# Wi-Fi - from daisy
+vendor/bin/wcnss_service:vendor/bin/wcnss_service_daisy|1a7da5ec11248ea69af665d711a846e4cc7c95be
