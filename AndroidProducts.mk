@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/nad_rova.mk
+    $(LOCAL_DIR)/xdroid_rova.mk
 
 COMMON_LUNCH_CHOICES := \
-    nad_rova-user \
-    nad_rova-userdebug \
-    nad_rova-eng
+    xdroid_rova-user \
+    xdroid_rova-userdebug \
+    xdroid_rova-eng
