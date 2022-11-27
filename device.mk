@@ -150,10 +150,6 @@ PRODUCT_PACKAGES += \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0.vendor
 
-# XiaomiParts
-PRODUCT_PACKAGES += \
-    XiaomiParts
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.4.vendor \
@@ -376,8 +372,7 @@ PRODUCT_PACKAGES += \
     init.baseband.proxy.rc \
     init.xiaomi.device.rc \
     init.xiaomi.device.sh \
-    init.xiaomi.series.rc \
-    init.parts.rc
+    init.xiaomi.series.rc 
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
